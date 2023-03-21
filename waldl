@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+if [ -z "$1" ]; then 
+    echo "Usage: waldl {query}"
+else
+    python /opt/projects/waldl.py $1
+fi
