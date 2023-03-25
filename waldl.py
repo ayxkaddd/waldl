@@ -53,7 +53,7 @@ def retry_unsucces():
     global retry_list
     print(f"[***] Retrying to download {len(retry_list)} unsucces downloaded wallpapers")
     if len(retry_list) == 0:
-        print("No need to retry!")
+        print("[***] No need to retry!")
     else:
         for url in retry_list:
             download_wallpaper(url)
