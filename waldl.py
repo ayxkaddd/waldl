@@ -14,8 +14,7 @@ def generate_id():
 
 
 def get_ext(url):
-    ext = os.path.splitext(url)[1]
-    return ext
+    return os.path.splitext(url)[1]
 
 
 def download_wallpaper(url):
