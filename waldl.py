@@ -44,6 +44,8 @@ def download_wallpaper(url):
 def wallpaper_search_api(query):
     if query == "--random" or query == "-r":
         query_url = "https://wallhaven.cc/api/v1/search?sorting=random"
+    elif query == "--top" or query == "-t":
+        query_url = "https://wallhaven.cc/api/v1/search?sorting=toplist"
     else:
         query_url = f"https://wallhaven.cc/api/v1/search?q={query}&sorting=random" 
     
