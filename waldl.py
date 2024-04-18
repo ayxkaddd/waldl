@@ -14,7 +14,7 @@ headers = {
     'Referer': 'https://wallhaven.cc/',
 }
 
-DOWNLOAD_DIR = f"{str(pathlib.Path.home())}/pics/walls"
+DOWNLOAD_DIR = f"{str(pathlib.Path.home())}/Pictures/walls"
 retry_list = []
 
 def generate_id():
@@ -84,7 +84,9 @@ def retry_unsucces():
 if __name__ == "__main__":
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     if len(sys.argv) < 2:
-        print("Usage waldl.py <search_query>")
+        print("Usage waldl.py <search_query>\n")
+        print("To download wallpapers randomly: waldl.py --random/-r")
+        print("To download wallpapers from the top list: waldl.py --top/-t")
         quit()
 
 
