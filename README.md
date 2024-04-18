@@ -15,4 +15,4 @@ To download wallpapers from the top list:
 
 ## Configuration
 
-- [DOWNLOAD_DIR](https://github.com/ayxkaddd/waldl/blob/80ed1939ba5e7fa017a43c001cab2f19c500c336/waldl.py#L17): Default directory for downloading wallpapers. Modify this variable in the script to change the download directory.
+- [DOWNLOAD_DIR](https://github.com/ayxkaddd/waldl/blob/main/waldl.py#L17): Default directory for downloading wallpapers. Modify this variable in the script to change the download directory.
